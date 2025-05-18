@@ -1,0 +1,108 @@
+/* semantic color variables for this project */
+:root {
+  --color-button: #ffffff1e;
+  --button-hover:#ea7171af;
+  --button-text-color: #ffffff;
+  --button-width: 150px;
+  --button-height: 50px;
+  --button-font-size: 20px;
+
+  --color-text: #ffffff;
+  --color-false: #952009b4;
+  --color-true: #19793eb6;
+  --color-false-hover: #952009ce;
+  --color-true-hover: #19793ed3;
+  --color-header: #282828cf;
+
+  --color-rules: #fffcfc;
+
+  --color-background: #ffffffbd;
+
+  --font-size:16px;
+  --icon-width:20px;
+
+  --shadow: #0006;  
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+  font-weight: 200;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: var(--font-size);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 5px auto;
+
+
+
+  background: linear-gradient(0deg, #02162dd6, #0000007a) no-repeat 50% fixed, url(img/background.png) no-repeat 50% fixed;
+  background-size: auto;
+  background-size: cover;
+    background-size: auto;
+    background-size: cover;
+}
+
+button:hover{
+  cursor:pointer;
+}
+
+/*Les polices*/
+
+@font-face {
+  font-family: "Police1";
+  src: url('polices/manga.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Police2";
+  src: url('polices/Police2.ttf');
+}
+
+@font-face {
+  font-family: "Police3";
+  src: url('polices/Police3.ttf');
+}
+
+@font-face {
+  font-family: "Police4";
+  src: url('polices/Police4.ttf');
+}
+
+@font-face {
+  font-family: "Police5";
+  src: url('polices/Police5.ttf');
+}
+
+@font-face {
+  font-family: "Police8";
+  src: url('polices/Police8.otf');
+}
+
+@font-face {
+  font-family: "Police9";
+  src: url('polices/Police9.ttf')}

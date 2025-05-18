@@ -1,0 +1,110 @@
+/* Sélection de la manche */
+
+	.navigation {
+		display: flex;
+		align-items: center;
+		align-content: center;
+		flex-direction:column;
+	}
+
+/* Bloc de réponse */
+
+.classe_question {
+	font-family: Police5;
+		
+	}
+
+
+.contenu {
+	margin-top: 1vh;
+	font-family: Police6;
+	color: black;
+	background-color: var(--color-background);
+	filter: drop-shadow(0 0 0.75rem grey);
+	padding: 2em;
+	width: 90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/* Afficher & Masquer les mots */
+span {
+	position: relative;
+	}
+
+
+.inconnu::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	border-radius: 3px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.invisible
+{
+	display: none;
+}
+
+.justGuessed{
+	color:green;
+}
+
+.id {
+	background-color: white;
+}
+
+.afficher {
+	background-color: transparent;
+}
+
+#end {
+	text-align: center;
+	font-family: "Bold";
+	font-family: Police1;
+}
+
+/* L'endroit où on fait ses propositions */
+
+.input{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 1.4em;
+	font-family: Police1;
+	}
+
+input[type = text] {    
+	width: 400px;
+	height: 80px;  
+	margin-top: 2vh;
+	font-size: 1.8em;    
+	background-color: transparent;
+	border: none;
+	border-top: 3px solid #000;    
+	border-bottom: 3px solid #000;
+	outline: none;
+
+} 
+	
+input[type="text"]:focus + label,
+input[type = text]:hover + label{
+	top: -130px;
+	font-size: 1.2em;
+	transition: all .3s;
+	
+}
+
+label{
+	display: block;
+	position: relative;
+	top: -70px;
+	font-size: 1.8em;
+	cursor: text;
+	transition: all .3s;    
+}

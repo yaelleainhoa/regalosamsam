@@ -1,0 +1,126 @@
+/* De manière générale */
+.bloc {
+    margin: 50px 60px;
+    background-color: var(--color-background);
+    padding: 2em;
+
+}
+
+/* Boutons Duo Carre ou Cash */
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    min-width: 30% !important;
+    
+}
+
+/* Navigation entre les pages */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+/* Questions */
+
+.question {
+    color: #000;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.reponse {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bloc {
+    height: 600px;
+}
+
+#indice {
+    background-color: #ff2a68;
+    /* Rouge Noël */
+    color: white;
+    padding: 12px 30px;
+
+    text-transform: uppercase;
+    border: 2px solid #ff2a68;
+    /* Bordure rouge */
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 40%;
+}
+
+
+
+
+.question, .reponse {
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #333;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    border-radius: 8px;
+    width: 75%;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.reponse {
+
+    border: 2px solid #B3D9E1;
+    font-family: "Police2";
+    margin-top: 20px;
+
+
+}
+
+.question {
+
+    border: 2px solid #F4B6B6;
+
+}
+
+body {
+    font-family: "Police2";
+}
+
+#timer {
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input {
+    font-size: 1rem;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.zone-chrono {
+    text-align: center;
+}

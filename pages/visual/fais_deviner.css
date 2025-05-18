@@ -1,0 +1,93 @@
+#socle {
+    text-align: center;
+}
+
+.styled-button {
+    background-color: #4CAF50; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Supprime la bordure */
+    padding: 15px 32px; /* Espacement intérieur */
+    text-align: center; /* Centre le texte */
+    text-decoration: none; /* Supprime le soulignement */
+    display: inline-block; /* Permet de définir des dimensions */
+    font-size: 16px; /* Taille de la police */
+    border-radius: 8px; /* Arrondir les coins */
+    transition: background-color 0.3s ease; /* Animation de transition */
+    cursor: pointer; /* Curseur de pointeur au survol */
+}
+
+.styled-button:hover {
+    background-color: #45a049; /* Couleur au survol */
+}
+
+.container-reponse {
+    text-align: center;
+}
+
+#container2 {
+    width: 100%; /* Utilisation de toute la largeur du parent */
+    max-width: 400px; /* Limiter la largeur maximale du conteneur */
+    margin: 20px auto; /* Centrer le conteneur avec un peu d'espace autour */
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styles du select */
+  #manche-select {
+    width: 100%; /* Assure que le select prenne toute la largeur du conteneur */
+    padding: 10px 15px; /* Ajouter un peu de padding pour le confort */
+    font-size: 16px; /* Taille de police moderne */
+    font-family: 'Arial', sans-serif; /* Police moderne et simple */
+    background-color: #f8f9fa; /* Fond clair pour un look propre */
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 8px; /* Bords arrondis */
+    appearance: none; /* Pour supprimer les flèches natives dans certains navigateurs */
+    outline: none; /* Enlever le contour au focus */
+    transition: all 0.3s ease; /* Transition douce pour les changements d'état */
+  }
+  
+  /* Style de la flèche (pseud-élément) */
+  #manche-select::-ms-expand {
+    display: none; /* Cache la flèche dans les versions anciennes d'IE */
+  }
+  
+  #manche-select:focus {
+    border-color: #007bff; /* Couleur de la bordure lorsqu'on est en focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ombre pour un effet de focus plus visible */
+  }
+  
+  /* Animation de la flèche personnalisée */
+  #manche-select {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMiAxMyIgZmlsbD0ibm9uZSIgdmlzaWJpbmQ9InN0b3J5IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zY2hlbWVzL3htbG5zY2hlbWUiIHZlcnNpb249IjEuMSI+PHBhdGggZD0iTTEuNSw1LjVhMiwyIDAgMSwwIDAsM2gxLjk1bC0yLTExLjE4em0tMTEuNiw2LjBhMiwyIDAgMSwwIDAsM2gtMy45OXoiLz48L3N2Zz4=') ;
+    background-position: right 10px center; /* Positionner la flèche à droite */
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+  }
+  
+  /* Pour avoir un bouton plus moderne lors de l'interaction avec l'utilisateur */
+  #manche-select:hover {
+    border-color: #0056b3; /* Changer la couleur de la bordure au survol */
+  }
+
+  #popup {
+    display: none; /* Masqué par défaut */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Assure que le pop-up est au-dessus du contenu */
+    padding: 15px;
+    width: 80%;
+}
+#popup img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Reconnais-tu ce son ?</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../visual/audio.css">
+</head>
+
+<body>
+
+	</div>
+		<div class="bloc">
+		<table class="tableau_lettre">
+			<tr>
+				<td id="0" value="a" class="lettre" onclick="Lancer_musique(id)">A</td>
+				<td id="1" value="b" class="lettre" onclick="Lancer_musique(id)">B</td>
+				<td id="2" value="c" class="lettre" onclick="Lancer_musique(id)">C</td>
+				<td id="3" value="d" class="lettre" onclick="Lancer_musique(id)">D</td>
+				<td id="4" value="e" class="lettre" onclick="Lancer_musique(id)">E</td>
+				<td id="5" value="f" class="lettre" onclick="Lancer_musique(id)">F</td>
+				<td id="6" value="g" class="lettre" onclick="Lancer_musique(id)">G</td>
+				<td id="7" value="h" class="lettre" onclick="Lancer_musique(id)">H</td>
+				<td id="8" value="i" class="lettre" onclick="Lancer_musique(id)">I</td>
+				<td id="9" value="j" class="lettre" onclick="Lancer_musique(id)">J</td>			
+			</tr>
+			<tr>
+				<td id="10" value="k" class="lettre" onclick="Lancer_musique(id)">K</td>
+				<td id="11" value="l" class="lettre" onclick="Lancer_musique(id)">L</td>
+				<td id="12" value="m" class="lettre" onclick="Lancer_musique(id)">M</td>
+				<td id="13" value="n" class="lettre" onclick="Lancer_musique(id)">N</td>
+				<td id="14" value="o" class="lettre" onclick="Lancer_musique(id)">O</td>
+				<td id="15" value="p" class="lettre" onclick="Lancer_musique(id)">P</td>
+				<td id="16" value="q" class="lettre" onclick="Lancer_musique(id)">Q</td>
+				<td id="17" value="r" class="lettre" onclick="Lancer_musique(id)">R</td>
+				<td id="18" value="s" class="lettre" onclick="Lancer_musique(id)">S</td>
+				<td id="19" value="t" class="lettre" onclick="Lancer_musique(id)">T</td>			
+			</tr>
+			<tr>
+				<td class="case_blanche"></td>
+				<td class="case_blanche"></td>
+				<td id="20" value="u" class="lettre" onclick="Lancer_musique(id)">U</td>
+				<td id="21" value="v" class="lettre" onclick="Lancer_musique(id)">V</td>
+				<td id="22" value="w" class="lettre" onclick="Lancer_musique(id)">W</td>
+				<td id="23" value="x" class="lettre" onclick="Lancer_musique(id)">X</td>
+				<td id="24" value="y" class="lettre" onclick="Lancer_musique(id)">Y</td>
+				<td id="25" value="z" class="lettre" onclick="Lancer_musique(id)">Z</td>
+				<td class="case_blanche"></td>
+				<td class="case_blanche"></td>			
+			</tr>
+		</table>
+	</div>
+	</div>
+	<div class="bloc">
+		<figure>
+			<figcaption class="titre">A toi de deviner..</figcaption>
+			<div id="enonce" class="titre" ></div>
+			<audio id="audio" controls></audio>
+		  </figure>
+	</div>
+
+	<div class="bloc">
+		<div id="reponse" class="reponse" onclick="reponse()">RÉPONSE</div>
+	</div>
+	<div class="bloc">
+		<div id="solution" class="titre" ></div>
+	</div>
+
+	<div class="bloc">
+		<img id="bonne_reponse" class="reponse" onclick="bonne_reponse()" src="../../assets/img/bonne.png">
+		<img id="mauvaise_reponse" class="reponse" onclick="mauvaise_reponse()" src="../../assets/img/mauvaise.png">
+	</div>
+
+</body>
+	<script type="module" src="../../assets/main.js"></script>
+	<script src="../game/audio.js"></script>
+</html>
+

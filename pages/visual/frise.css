@@ -1,0 +1,46 @@
+/* Contenu de la page */
+
+#game{
+	display: flex;
+	flex-direction: column;
+}
+
+/* Tableau */
+
+#answers_tab{
+	margin-top:20px;
+	color:black;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-height:40vh;
+	overflow: hidden;
+	align-items: center;
+	background-color: var(--color-background);
+}
+
+.cell{
+	width: 100px;
+	height:40px;
+	align-items: center;
+	text-align: center;
+	margin:10px;
+}
+
+.line{
+	display: flex;
+}
+
+input{
+	height:30px;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: var(--color-header);
+	border-style:solid;
+}
+
+/* Boutons */
+.btn{
+	display: block;
+}
+	

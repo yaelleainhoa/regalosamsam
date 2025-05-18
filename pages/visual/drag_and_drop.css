@@ -1,0 +1,63 @@
+#imagesToDrop
+{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.imageToDrop{
+	margin: 5px;
+	box-shadow: 1px 1px 5px var(--shadow);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	padding-bottom:40px;
+}
+
+#textsToDrag
+{
+	display:flex;
+	flex-wrap: wrap;
+	height: fit-content;
+	width: 80vw;
+	justify-content: center;
+}
+
+.textToDrag{
+	width: fit-content;
+	font-family: Police3;
+	font-size: 18px;
+	letter-spacing: 1px;
+	border-spacing: 1rem;
+	max-width: 20vw;
+	text-align: center;
+	margin: 10px;
+}
+
+.questions {
+	font-family: Police6;
+	background-color: transparent;
+	display:flex;
+	flex-direction: column;
+	margin:20px;
+}
+
+img {
+	width: 12vw;
+}
+
+.draggable{
+	padding: 10px;
+}
+
+.draggable:hover  {
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);	border-radius: 30px;
+	cursor: pointer}
+
+.draggable:active  {
+	box-shadow: 10px 5px 5px var(--shadow);
+	border-radius: 30px;}

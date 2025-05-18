@@ -1,0 +1,37 @@
+#container{
+	margin:2vh
+}
+
+#container2{
+	margin: auto;
+	text-align: center;
+	width: 200px;
+
+	
+
+
+}
+
+/* ================================== */
+
+.center {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.select {
+	width: 225px;
+	height: 40px;
+	cursor: pointer;
+	background-color: white;
+	border-radius: 2px;
+	font-family: Police3;
+	font-size: 20px;
+	text-align: center;
+	border-color: #cc527a;
+	border-width: 4px;
+	border-radius: 10px;
+	
+
+	}

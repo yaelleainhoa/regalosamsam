@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Duo carré ou cache</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../visual/dcc.css">
+</head>
+
+<body>
+	
+<p class="regles"> Les règles : </p>
+<p class="enonce_regles">Pour chaque question, la personne désignée doit dire si elle veut répondre à la question avec un indice qui rendra la question facile (1 points), moyenne (3 points) ou dure (5 points). </p>
+
+<div class="zone-chrono">
+	<div id="timer">00:00</div>
+	<button onclick="startTimer()">Démarrer</button>
+	<button onclick="stopTimer()">Arrêter</button>
+<button onclick="resetTimer()">Réinitialiser</button>
+</div>
+<div class="bloc">
+	<div class="navigation">
+		<input type="button" class="btn" value="<< Précédente" id="previous"onclick="precedent()"></button>
+		<input type="button" class="btn" value="Suivante >>" id="next" onclick="suivant()"></button>
+	</div>
+	<div class="question" id="question"></div>
+	<div class="btns">
+		<input type="button" class="btn" id="idfacile" value="Facile" onclick="question(id)"></button>
+		<input type="button" class="btn" id="idmoyen" value="Moyen" onclick="question(id)"></button>
+		<input type="button" class="btn" id="iddur" value="Dur" onclick="question(id)"></button>
+	</div>
+	<div id="zone-indice" class="reponse" style="display: none;"></div>
+	<div type="button" class="champ-reponse" id="indice" onclick="resultat()" style="display: block;">Voir la réponse</div>
+
+</div>
+
+
+
+</body>
+	<script type="module" src="../../assets/main.js"></script>
+	<script src="../game/dcc.js"></script>
+</html>

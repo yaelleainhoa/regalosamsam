@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(70, 19, 158);
+    background-color: rgb(255,255,255);
+}
+
+.gamesLayout{
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.jeu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;;
+    background-image: url("../../assets/img/game.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Police1;
+    position: relative;
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+.jeu:after
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    background: hsl(0, 100%, 86%); 
+    border-radius: 70% 70% 70% 70%;
+    content: '';
+    opacity: 0;
+        -webkit-transition: opacity 0.9s ease 0s; 
+}
+
+.jeu:hover:after
+{
+    opacity: 0.4;
+}
+
+.jeu h1{
+    color:white;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.15s ease 0s; 
+    position: relative;
+    z-index: 10;
+    margin: 20px;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.jeu:hover h1{
+    transform: translateY(-5px);
+}
+
+:active, :hover, :focus {
+    outline: 0!important;
+    outline-offset: 0;
+}
+
+::before,
+::after {
+    position: absolute;
+    content: "";
+}
+
+.gameBtn {
+    position: relative;
+    display: inline-block;
+    width: auto; height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0px 25px 15px;
+    min-width: 150px;
+    z-index: 20;
+}
+
+.gameBtn span {         
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+
+.gameBtn::before {
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s ease-out;
+}
+
+.gameBtn span {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.2s;
+}  
+
+.gameBtn span:hover {
+    color: rgb(28, 31, 30);
+    transition: 0.2s 0.1s;
+}
+
+.gameBtn::before {
+    top: 0; bottom: 0; left: 0; 
+    height: 100%; width: 0%;
+}
+
+.gameBtn:hover::before {
+    width: 100%;
+}

@@ -1,0 +1,72 @@
+/* Tableau */
+
+table{
+    width:70vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Police2;
+    }
+
+.tblheader{
+    width:750px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    filter: drop-shadow(0 0 0.75rem var(--shadow));
+}
+
+.tblcontent{
+    height:auto;
+    overflow-x:auto;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    }
+
+th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000;
+    border: 2px solid black;
+}
+
+td:hover {
+    background: var(--button-hover);
+}
+
+.manches {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80px;
+}
+
+.answer{
+    background-color: var(--color-button);
+}
+
+.colo {
+text-align: center;
+font-size: 20px;
+color: white;
+}
+
+.colo:hover {
+    cursor: pointer;
+}
+
+.regles {
+    color: var(--color-text);
+}

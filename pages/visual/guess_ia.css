@@ -1,0 +1,18 @@
+#container{
+	margin:2vh
+}
+
+#container2{
+margin: 5vh;
+display: flex;
+align-items: center;
+justify-content: center;	
+}
+
+/* ================================== */
+
+.center {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+}
