@@ -1,9 +1,9 @@
 // Définition des manches 
     manches = [
         "Choisir la manche",
-        "Retrouver les drapeaux",
-        "Retrouver les personnages de Murder",
-        "Retrouver les métiers de Friends",
+        "Retrouver les dictateurs",
+        "Retrouver les joueurs",
+    
     ]
 
 // Définition des images de fond
@@ -124,200 +124,95 @@ const zones_2 = [
 
 ];
 
-const zones_3 = [
-    { id: '0', top: '16px', left: '26px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '1', top: '16px', left: '120px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '2', top: '16px', left: '213px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '3', top: '16px', left: '615px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '4', top: '16px', left: '718px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '5', top: '16px', left: '818px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '6', top: '127px', left: '26px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '7', top: '127px', left: '124px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '8', top: '127px', left: '224px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '9', top: '127px', left: '322px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '10', top: '127px', left: '421px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '11', top: '127px', left: '521px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '12', top: '127px', left: '619px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '13', top: '127px', left: '718px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '14', top: '127px', left: '818px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '15', top: '244px', left: '24px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '16', top: '244px', left: '124px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '17', top: '244px', left: '221px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '18', top: '244px', left: '321px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '19', top: '244px', left: '419px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '20', top: '244px', left: '520px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },  
-    { id: '21', top: '244px', left: '617px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '22', top: '244px', left: '718px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '23', top: '244px', left: '815px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '24', top: '377px', left: '31px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '25', top: '377px', left: '131px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '26', top: '377px', left: '236px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '27', top: '377px', left: '368px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '28', top: '377px', left: '495px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '29', top: '377px', left: '594px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '30', top: '377px', left: '701px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '31', top: '377px', left: '815px', height: '49px', width: '46px', border: '3px dashed yellow', borderRadius:'10%' },
-    { id: '32', top: '57px', left: '498px', height: '49px', width: '46px', border: '3px dashed black', borderRadius:'10%' },
-];
+
 
 const images_1 = [
-    "../../assets/img/drapeau/barhain.png",
-    "../../assets/img/drapeau/bermuda.png",
-    "../../assets/img/drapeau/burundi.png",
-    "../../assets/img/drapeau/dominica.png",
-    "../../assets/img/drapeau/kiribati.png",
-    "../../assets/img/drapeau/malawi.png",
-    "../../assets/img/drapeau/micronesia.png",
-    "../../assets/img/drapeau/oman.png",
-    "../../assets/img/drapeau/suriname.png",
-    "../../assets/img/drapeau/swaziland.png",
-    "../../assets/img/drapeau/timor.png",
-    "../../assets/img/drapeau/turkmenistan.png",
-    "../../assets/img/drapeau/tuvalu.png",
+    "../../assets/img/drapeau/1.png",
+    "../../assets/img/drapeau/2.png",
+    "../../assets/img/drapeau/3.png",
+    "../../assets/img/drapeau/4.png",
+    "../../assets/img/drapeau/5.png",
+    "../../assets/img/drapeau/6.png",
+    "../../assets/img/drapeau/7.png",
+    "../../assets/img/drapeau/8.png",
+    "../../assets/img/drapeau/9.png",
+    "../../assets/img/drapeau/10.png",
+    "../../assets/img/drapeau/11.png",
+    "../../assets/img/drapeau/12.png",
+    "../../assets/img/drapeau/13.png",
 ];
 
 const images_2 = [
-    "../../assets/img/drapeau/allemagne.png",
-    "../../assets/img/drapeau/arabie.png",
-    "../../assets/img/drapeau/armenie.png",
-    "../../assets/img/drapeau/birmanie.png",
-    "../../assets/img/drapeau/catalogne.png",
-    "../../assets/img/drapeau/chine.png",
-    "../../assets/img/drapeau/eh.png",
-    "../../assets/img/drapeau/galice.png",
-    "../../assets/img/drapeau/galles.png",
-    "../../assets/img/drapeau/georgie.png",
-    "../../assets/img/drapeau/iran.png",
-    "../../assets/img/drapeau/irlande.png",
-    "../../assets/img/drapeau/italie.png",
-    "../../assets/img/drapeau/japon.png",
-    "../../assets/img/drapeau/laos.png",
-    "../../assets/img/drapeau/norvege.png",
-    "../../assets/img/drapeau/pologne.png",
-    "../../assets/img/drapeau/portugal.png",
-    "../../assets/img/drapeau/thai.png",
-    "../../assets/img/drapeau/vietnam.png",
+    "../../assets/img/drapeau/14.png",
+    "../../assets/img/drapeau/15.png",
+    "../../assets/img/drapeau/16.png",
+    "../../assets/img/drapeau/17.png",
+    "../../assets/img/drapeau/18.png",
+    "../../assets/img/drapeau/19.png",
+    "../../assets/img/drapeau/20.png",
+    "../../assets/img/drapeau/21.png",
+    "../../assets/img/drapeau/22.png",
+    "../../assets/img/drapeau/23.png",
+    "../../assets/img/drapeau/24.png",
+    "../../assets/img/drapeau/25.png",
+    "../../assets/img/drapeau/26.png",
+    "../../assets/img/drapeau/27.png",
+    "../../assets/img/drapeau/28.png",
+    "../../assets/img/drapeau/29.png",
+    "../../assets/img/drapeau/30.png",
+    "../../assets/img/drapeau/31.png",
+    "../../assets/img/drapeau/32.png",
+    "../../assets/img/drapeau/33.png",
 
 ];
 
-const images_3 = [
-    "../../assets/img/drapeau/vv.png",
-    "../../assets/img/drapeau/dama.png",
-    "../../assets/img/drapeau/dede.png",
-    "../../assets/img/drapeau/caoi.png",
-    "../../assets/img/drapeau/bbb.png",
-    "../../assets/img/drapeau/kkkkk.png",
-    "../../assets/img/drapeau/bbaa.png",
-    "../../assets/img/drapeau/aa.png",
-    "../../assets/img/drapeau/ll.png",
-    "../../assets/img/drapeau/nn.png",
-    "../../assets/img/drapeau/zz.png",
-    "../../assets/img/drapeau/cccc.png",
-    "../../assets/img/drapeau/dadada.png",
-    "../../assets/img/drapeau/aaaa.png",
-    "../../assets/img/drapeau/pp.png",
-    "../../assets/img/drapeau/dldl.png",
-    "../../assets/img/drapeau/ksoa.png",
-    "../../assets/img/drapeau/kqkq.png",
-    "../../assets/img/drapeau/lqlq.png",
-    "../../assets/img/drapeau/mmmm.png",
-    "../../assets/img/drapeau/tt.png",
-    "../../assets/img/drapeau/kankda.png",
-    "../../assets/img/drapeau/oo.png",
-    "../../assets/img/drapeau/jjjj.png",
-    "../../assets/img/drapeau/damq.png",
-    "../../assets/img/drapeau/nbjh.png",
-    "../../assets/img/drapeau/jjaaj.png",
-    "../../assets/img/drapeau/lala.png",
-    "../../assets/img/drapeau/dadama.png",
-    "../../assets/img/drapeau/kkkk.png",
-    "../../assets/img/drapeau/dada.png",
-    "../../assets/img/drapeau/xx.png",
-    
-
-];
 
 
 const_reponses = []
 
 const_reponses_1 =[
-    "dominica",
-    "bermuda",
-    "barhain",
-    "turkmenistan",
-    "oman",
-    "micronesia",
-    "timor",
-    "tuvalu",
-    "burundi",
-    "swaziland",
-    "malawi",
-    "suriname",
-    "kiribati"
+    "12",
+    "4",
+    "5",
+    "3",
+    "6",
+    "7",
+    "1",
+    "9",
+    "8",
+    "10",
+    "11",
+    "2",
+    "12"
 
 ];
 
 const_reponses_2 =[
-    "armenie",
-    "galles",
-    "japon",
-    "galice",
-    "laos",
-    "italie",
-    "chine",
-    "catalogne",
-    "norvege",
-    "eh",
-    "iran",
-    "thai",
-    "birmanie",
-    "vietnam",
-    "irlande",
-    "pologne",
-    "georgie",
-    "portugal",
-    "arabie",
-    "allemagne"
+    "17",
+    "22",
+    "18",
+    "25",
+    "27",
+    "33",
+    "14",
+    "15",
+    "24",
+    "29",
+    "31",
+    "19",
+    "32",
+    "26",
+    "21",
+    "16",
+    "28",
+    "30",
+    "23",
+    "20"
 
 
 
 ];
 
-const_reponses_3 = [
-    "aaaa",
-    "xx",
-    "nbjh",
-    "kankda",
-    "ksoa",
-    "mmmm",
-    "jjjj",
-    "kkkk",
-    "lqlq",
-    "cccc",
-    "bbaa",
-    "dada",
-    "kqkq",
-    "bbb",
-    "dede",
-    "dadada",
-    "dama",
-    "lala",
-    "kkkkk",
-    "jjaaj",
-    "dldl",
-    "caoi",
-    "pp",
-    "nn",
-    "oo",
-    "dadama",
-    "vv",
-    "damq",
-    "tt",
-    "zz",
-    "aa",
-    "ll"
-
-]
 
 
 const_propositions = [
@@ -361,11 +256,11 @@ const_propositions = [
             // Événements pour la zone de drop
             dropZone.addEventListener('dragover', (event) => {
                 event.preventDefault(); // Autoriser le drop
+                
             });
 
             dropZone.addEventListener('drop', (event,index) => {
                 event.preventDefault(); // Prévenir le comportement par défaut
-
                 const id = event.dataTransfer.getData('text/plain'); // Récupérer l'id de l'image
                 const draggedElement = document.getElementById(id);
 
@@ -484,6 +379,7 @@ socle.appendChild(container_drapeaux);
 
 // Récupération des coordonnées
 image.addEventListener('click', function(event) {
+    
     // Récupère la position de l'image par rapport à la fenêtre
     const rect = image.getBoundingClientRect();
     

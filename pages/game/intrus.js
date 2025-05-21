@@ -11,26 +11,26 @@ images  = [
 ]
 
 reponses = [
-	"Bob Dylan obtient le Prix de Nobel de littérature",
-	"Décès de Michael Jackson",
-	"Fin du règne de la Barcina",
-	"Première publication de la version française en volumes reliés par Glénat",
-	"Sortie de Grey's Anatomy",
-	"Sortie du film Supercondrique",
-	"Un nigérian est drafté n°1 en NBA",
-	"Victoire de la Real Sociedad à la coupe du roi",
+	"Angie",
+	"Another brick in the wall",
+	"Antisocial",
+	"Californication",
+	"Ellos dicen mierda",
+	"Mrs. Robinson",
+	"Should i stay or should i go",
+	"Yellow Submarine",
 	
 ]
 
 bonnes_reponses = [
-	"Sortie de Grey's Anatomy",
-	"Première publication de la version française en volumes reliés par Glénat",
-	"Victoire de la Real Sociedad à la coupe du roi",
-	"Sortie du film Supercondrique",
-	"Un nigérian est drafté n°1 en NBA",
-	"Décès de Michael Jackson",
-	"Fin du règne de la Barcina",
-	"Bob Dylan obtient le Prix de Nobel de littérature",
+	"Mrs. Robinson",
+	"Yellow Submarine",
+	"Another brick in the wall",
+	"Angie",
+	"Californication",
+	"Should i stay or should i go",
+	"Ellos dicen mierda",
+	"Antisocial",
 
 ]
 
