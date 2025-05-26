@@ -262,7 +262,7 @@ const_propositions = [
             dropZone.addEventListener('drop', (event,index) => {
                 event.preventDefault(); // Prévenir le comportement par défaut
                 const id = event.dataTransfer.getData('text/plain'); // Récupérer l'id de l'image
-                const draggedElement = document.getElementById(id);
+                draggedElement = document.getElementById(id);
 
                 // Obtenir les coordonnées de la zone de drop
                 const dropZoneRect = dropZone.getBoundingClientRect();
@@ -271,11 +271,11 @@ const_propositions = [
                 draggedElement.style.position = 'absolute';
                 const offsetX = -10;
                 const offsetY = -10;
+
                 draggedElement.style.top = `${dropZoneRect.top + window.scrollY + offsetY}px`;
                 draggedElement.style.left = `${dropZoneRect.left + window.scrollX + offsetX}px`;
 
-                const_propositions[dropZone.id]=id;
-            
+                const_propositions[dropZone.id]=id;      
             });
 
             container.appendChild(dropZone);
@@ -306,7 +306,7 @@ const_propositions = [
     images_manche.forEach((drapeau, index) => {
     const drapeauZone = document.createElement('img');
     drapeauZone.className = 'draggable';
-    drapeauZone.id = images_manche[index].split('/').pop().split('.')[0];
+    drapeauZone.id = "draggable_" + images_manche[index].split('/').pop().split('.')[0];
     drapeauZone.src = images_manche[index];
    
     if (mancheActuelle ==1) {
@@ -354,17 +354,18 @@ socle.appendChild(container_drapeaux);
         else if (mancheActuelle ==2) {const_reponses = const_reponses_2}
         else if (mancheActuelle ==3) {const_reponses = const_reponses_3}
         for (i = 0; i< const_propositions.length; i++) {   
-            var constATester = const_propositions[i].replace(/\d/g, '');
+            var constATester = parseInt(const_propositions[i].match(/\d+/)[0], 10);
             if (constATester == const_reponses[i]) {
                 score = score + 1;
                 document.getElementById(const_propositions[i]).style.opacity = "0.9";
                 document.getElementById(const_propositions[i]).style.border = "10px solid #28a745";
                 document.getElementById(const_propositions[i]).style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
-                
             }
 
             else {
-
+                document.getElementById(const_propositions[i]).style.opacity = "0.9";
+                document.getElementById(const_propositions[i]).style.border = "10px solid rgb(167, 40, 40)";
+                document.getElementById(const_propositions[i]).style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
             }
 
             
