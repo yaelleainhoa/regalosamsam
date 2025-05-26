@@ -1,5 +1,5 @@
 export const games = [
-    ["maladie", "Reconnais-tu cette maison/voiture ?"],
+    ["maladie", "Qui est ce de dos?"],
     ["audio", "La suite.."],
     ["dcc", "Facile, moyen ou dur ?"],
     ["vf", "Memory"],

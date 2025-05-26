@@ -57,7 +57,7 @@ function setNavBar()
     }
     var leftButtonImg = document.createElement("img");
     leftButtonImg.src = "../../assets/img/left-arrow.png";
-    leftButtonImg.style.width = "10%";
+    leftButtonImg.style.width = "40%";
     leftButtonImg.classList.add("navigationButton");
     leftButton.appendChild(leftButtonImg);
     nav.appendChild(leftButton);
@@ -69,7 +69,7 @@ function setNavBar()
     }
     var homeButtonImg = document.createElement("img");
     homeButtonImg.src = "../../assets/img/home.png";
-    homeButtonImg.style.width = "10%";
+    homeButtonImg.style.width = "20%";
     homeButtonImg.classList.add("navigationButton");
     homeButton.appendChild(homeButtonImg);
     nav.appendChild(homeButton);
@@ -81,7 +81,7 @@ function setNavBar()
     }
     var rightButtonImg = document.createElement("img");
     rightButtonImg.src = "../../assets/img/right-arrow.png";
-    rightButtonImg.style.width = "10%";
+    rightButtonImg.style.width = "40%";
     rightButtonImg.classList.add("navigationButton");
     rightButton.appendChild(rightButtonImg);
     nav.appendChild(rightButton);

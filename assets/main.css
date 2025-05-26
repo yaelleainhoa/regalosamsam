@@ -8,6 +8,7 @@
     margin-bottom: 0px;
     justify-content: space-around;
     max-width: 80vw;
+    margin:auto;
 }
 
 .navigationBar > button {
@@ -109,8 +110,9 @@
 }
 
 #image{
-	height: 00%;
-    max-height: 500px;
+    max-height: 500px;   /* or any desired value */
+    height: auto;
+    width: auto;
 }
 
 /* Tableau */
