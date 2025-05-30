@@ -14,13 +14,11 @@ var images = [
 "../../assets/img/plat_signature/13.png",
 "../../assets/img/plat_signature/14.png",
 "../../assets/img/plat_signature/15.png",
-"../../assets/img/plat_signature/16.png",
+"../../assets/img/plat_signature/16.jpg",
 "../../assets/img/plat_signature/17.png",
 "../../assets/img/plat_signature/18.png",
 "../../assets/img/plat_signature/19.png",
 "../../assets/img/plat_signature/20.png",
-"../../assets/img/plat_signature/21.png",
-"../../assets/img/plat_signature/22.png",
 ]
 
 var reponses = [
