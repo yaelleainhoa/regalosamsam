@@ -1,7 +1,10 @@
 // to launch locally
 // import { games } from "../../assets/variables.js";
 // to change for githubpages
-import { games } from "/../../assets/variables.js";
+// import { games } from "/../../assets/variables.js";
+
+import { games } from "/regalosamsam/assets/variables.js";
+
 
 function getCurrentPageIndex() {
     console.log('here');

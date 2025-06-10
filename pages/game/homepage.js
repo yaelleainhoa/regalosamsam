@@ -1,10 +1,11 @@
 // to launch locally
-import { games } from "../../assets/variables.js";
+// import { games } from "../../assets/variables.js";
 // To change for githubpages
 
 console.log('here');
 
 // import { games } from "/../../assets/variables.js";
+import { games } from "/regalosamsam/assets/variables.js";
 
 function setGames()
 {
