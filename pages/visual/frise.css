@@ -1,5 +1,13 @@
 /* Contenu de la page */
 
+#image
+{
+	max-width: 95vw;
+	height: auto;
+	width: auto;
+	margin:auto
+}
+
 #game{
 	display: flex;
 	flex-direction: column;
